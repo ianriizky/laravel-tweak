@@ -1,0 +1,21 @@
+{
+    "name": "ianriizky/laravel-tweak",
+    "description": "Make your Laravel Framework become more powerful and IDE-readable",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ianriizky",
+            "email": "ian.rizkypratama@gmail.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "laravel",
+        "tweak",
+        "addon",
+        "extension"
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
