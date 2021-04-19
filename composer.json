@@ -39,7 +39,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "dev-feature/6.x"
+            "dev-master": "feature/6.x-dev"
         }
     }
 }
