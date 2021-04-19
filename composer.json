@@ -36,10 +36,5 @@
         "psr-4": {
             "Ianrizky\\LaravelTweak\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "feature/6.x-dev"
-        }
     }
 }
