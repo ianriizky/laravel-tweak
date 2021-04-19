@@ -17,5 +17,29 @@
         "extension"
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": ">=7.2.5",
+        "laravel/framework": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Illuminate/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Ianrizky\\Illuminate\\": "src/Illuminate/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ianrizky\\LaravelTweak\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-feature/6.x"
+        }
+    }
 }
