@@ -73,7 +73,7 @@ trait HandleModel
             return $model->morphName;
         }
 
-        return $model::class;
+        return get_class($model);
     }
 
     /**
