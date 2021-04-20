@@ -1,6 +1,6 @@
 <?php
 
-namespace Ianrizky\Illuminate\Database\Concerns;
+namespace Ianrizky\Illuminate\Database\Eloquent\Docblock;
 
 /**
  * @method static bool chunk(int $count, callable $callback) Chunk the results of the query.
@@ -14,7 +14,7 @@ namespace Ianrizky\Illuminate\Database\Concerns;
  *
  * @see \Illuminate\Database\Concerns\BuildsQueries
  */
-trait BuildsQueriesDocblock
+trait BuildsQueries
 {
     //
 }

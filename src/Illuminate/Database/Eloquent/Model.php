@@ -9,9 +9,9 @@ use Illuminate\Database\Eloquent\Model as BaseModel;
  */
 abstract class Model extends BaseModel
 {
-    use Concerns\EloquentBuilderDocblock,
-        Concerns\HandleModel,
+    use Concerns\HandleModel,
         Concerns\HasAttributes,
         Concerns\HasTimestamps,
-        Concerns\Tappable;
+        Concerns\Tappable,
+        Docblock\EloquentBuilder;
 }

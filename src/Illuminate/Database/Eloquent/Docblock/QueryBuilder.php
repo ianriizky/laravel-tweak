@@ -1,8 +1,6 @@
 <?php
 
-namespace Ianrizky\Illuminate\Database\Query\Concerns;
-
-use Ianrizky\Illuminate\Database\Concerns\BuildsQueriesDocblock;
+namespace Ianrizky\Illuminate\Database\Eloquent\Docblock;
 
 /**
  * @method static $this select(array|mixed $columns = ['*']) Set the columns to be selected.
@@ -147,7 +145,7 @@ use Ianrizky\Illuminate\Database\Concerns\BuildsQueriesDocblock;
  *
  * @see \Illuminate\Database\Query\Builder
  */
-trait QueryBuilderDocblock
+trait QueryBuilder
 {
-    use BuildsQueriesDocblock, CustomQueryBuilderDocblock;
+    use BuildsQueries, CustomQueryBuilder;
 }
