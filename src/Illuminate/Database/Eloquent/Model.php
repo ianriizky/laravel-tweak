@@ -13,6 +13,13 @@ abstract class Model extends BaseModel
         Concerns\HasAttributes,
         Concerns\HasTimestamps,
         Concerns\Tappable,
-        Concerns\UseCustomCollection,
         Docblock\EloquentBuilder;
+
+    /**
+     * {@inheritDoc}
+     */
+    public function newCollection(array $models = []): Collection
+    {
+        return new Collection($models);
+    }
 }

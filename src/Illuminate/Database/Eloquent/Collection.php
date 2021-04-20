@@ -2,51 +2,18 @@
 
 namespace Ianrizky\Illuminate\Database\Eloquent;
 
+use ArrayIterator;
 use Illuminate\Database\Eloquent\Collection as BaseCollection;
-use Iterator;
 
-class Collection extends BaseCollection implements Iterator
+class Collection extends BaseCollection
 {
-    /** @var int */
-    protected $position = 0;
-
     /**
      * {@inheritDoc}
+     *
+     * @return \ArrayIterator<\Ianrizky\Illuminate\Database\Model>
      */
-    public function current(): Model
+    public function getIterator(): ArrayIterator
     {
-        return $this->getIterator()->offsetGet($this->position);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function key(): int
-    {
-        return $this->position;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function next(): void
-    {
-        $this->position++;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function rewind(): void
-    {
-        $this->position = 0;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function valid(): bool
-    {
-        return $this->getIterator()->offsetExists($this->position);
+        return new ArrayIterator($this->items);
     }
 }
