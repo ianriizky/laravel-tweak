@@ -13,5 +13,6 @@ abstract class Model extends BaseModel
         Concerns\HasAttributes,
         Concerns\HasTimestamps,
         Concerns\Tappable,
+        Concerns\UseCustomCollection,
         Docblock\EloquentBuilder;
 }
