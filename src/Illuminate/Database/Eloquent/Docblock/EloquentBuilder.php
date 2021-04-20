@@ -17,15 +17,15 @@ namespace Ianrizky\Illuminate\Database\Eloquent\Docblock;
  * @method static \Illuminate\Database\Eloquent\Builder oldest(string|\Illuminate\Database\Query\Expression $column = null) Add an "order by" clause for a timestamp to the query.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Collection hydrate(array $items) Create a collection of models from plain arrays.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Collection fromQuery(string $query, array $bindings = []) Create a collection of models from a raw query.
- * @method static \Ianrizky\Illuminate\Database\Eloquent\Model|\Ianrizky\Illuminate\Database\Eloquent\Collection|null find(mixed $id, array $columns = ['*']) Find a model by its primary key.
+ * @method static static|\Ianrizky\Illuminate\Database\Eloquent\Collection|null find(mixed $id, array $columns = ['*']) Find a model by its primary key.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Collection findMany(\Illuminate\Contracts\Support\Arrayable|array $ids, array $columns = ['*']) Find multiple models by their primary keys.
- * @method static \Ianrizky\Illuminate\Database\Eloquent\Model|\Ianrizky\Illuminate\Database\Eloquent\Collection findOrFail(mixed $id, array $columns = ['*']) Find a model by its primary key or throw an exception.
- * @method static \Ianrizky\Illuminate\Database\Eloquent\Model|static findOrNew(mixed $id, array $columns = ['*']) Find a model by its primary key or return fresh model instance.
- * @method static \Ianrizky\Illuminate\Database\Eloquent\Model|static firstOrNew(array $attributes, array $values = []) Get the first record matching the attributes or instantiate it.
- * @method static \Ianrizky\Illuminate\Database\Eloquent\Model|static firstOrCreate(array $attributes, array $values = []) Get the first record matching the attributes or create it.
- * @method static \Ianrizky\Illuminate\Database\Eloquent\Model|static updateOrCreate(array $attributes, array $values = []) Create or update a record matching the attributes, and fill it with values.
- * @method static \Ianrizky\Illuminate\Database\Eloquent\Model|static firstOrFail(array $columns = ['*']) Execute the query and get the first result or throw an exception.
- * @method static \Ianrizky\Illuminate\Database\Eloquent\Model|static|mixed firstOr(\Closure|array $columns = ['*'], \Closure|null $callback = null) Execute the query and get the first result or call a callback.
+ * @method static static|\Ianrizky\Illuminate\Database\Eloquent\Collection findOrFail(mixed $id, array $columns = ['*']) Find a model by its primary key or throw an exception.
+ * @method static static|\Ianrizky\Illuminate\Database\Eloquent\Collection findOrNew(mixed $id, array $columns = ['*']) Find a model by its primary key or return fresh model instance.
+ * @method static static firstOrNew(array $attributes, array $values = []) Get the first record matching the attributes or instantiate it.
+ * @method static static firstOrCreate(array $attributes, array $values = []) Get the first record matching the attributes or create it.
+ * @method static static updateOrCreate(array $attributes, array $values = []) Create or update a record matching the attributes, and fill it with values.
+ * @method static static firstOrFail(array $columns = ['*']) Execute the query and get the first result or throw an exception.
+ * @method static static|mixed firstOr(\Closure|array $columns = ['*'], \Closure|null $callback = null) Execute the query and get the first result or call a callback.
  * @method static mixed value(string|\Illuminate\Database\Query\Expression $column) Get a single column's value from the first result of a query.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Collection get(array|string $columns = ['*']) Execute the query as a "select" statement.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Model[]|static[] getModels(array|string $columns = ['*']) Get the hydrated models without eager loading.
