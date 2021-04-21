@@ -7,7 +7,7 @@
 [![Total Downloads](https://poser.pugx.org/ianriizky/laravel-tweak/d/total.svg)](https://packagist.org/packages/ianriizky/laravel-tweak)
 [![Software License](https://poser.pugx.org/ianriizky/laravel-tweak/license.svg)](https://packagist.org/packages/ianriizky/laravel-tweak)
 
-**laravel-tweak** is a library make your Laravel Framework become more powerful and IDE-readable.
+**laravel-tweak** is a library to make your Laravel Framework become more powerful and IDE-readable.
 
 ## Instalation
 You can install the package via composer:
