@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/ianriizky/laravel-tweak.svg)](https://travis-ci.org/ianriizky/laravel-tweak)
 [![Quality Score](https://img.shields.io/scrutinizer/g/ianriizky/laravel-tweak.svg?style=flat)](https://scrutinizer-ci.com/g/ianriizky/laravel-tweak)
-[![Code Coverage](https://scrutinizer-ci.com/g/ianriizky/laravel-tweak/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/ianriizky/laravel-tweak)
+[![Coverage Status](https://coveralls.io/repos/github/ianriizky/laravel-tweak/badge.svg)](https://coveralls.io/github/ianriizky/laravel-tweak)
 [![Latest Stable Version](https://poser.pugx.org/ianriizky/laravel-tweak/v/stable.svg)](https://packagist.org/packages/ianriizky/laravel-tweak)
 [![Total Downloads](https://poser.pugx.org/ianriizky/laravel-tweak/d/total.svg)](https://packagist.org/packages/ianriizky/laravel-tweak)
 [![Software License](https://poser.pugx.org/ianriizky/laravel-tweak/license.svg)](https://packagist.org/packages/ianriizky/laravel-tweak)
