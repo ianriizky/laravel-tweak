@@ -21,5 +21,4 @@ trait SoftDeletes
     {
         return $this->getAttributeValue($this->getDeletedAtColumn());
     }
-
 }
