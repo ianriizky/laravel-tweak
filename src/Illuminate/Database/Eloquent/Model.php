@@ -18,6 +18,14 @@ abstract class Model extends BaseModel
     /**
      * {@inheritDoc}
      */
+    public function newEloquentBuilder($query): Builder
+    {
+        return new Builder($query);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
     public function newCollection(array $models = []): Collection
     {
         return new Collection($models);
