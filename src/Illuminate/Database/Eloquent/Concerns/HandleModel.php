@@ -25,7 +25,7 @@ trait HandleModel
      */
     public static function getTableName(): string
     {
-        return static::instance()->getxTable();
+        return static::instance()->getTable();
     }
 
     /**

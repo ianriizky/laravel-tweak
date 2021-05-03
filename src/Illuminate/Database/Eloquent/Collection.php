@@ -10,7 +10,7 @@ class Collection extends BaseCollection
     /**
      * {@inheritDoc}
      *
-     * @return \ArrayIterator<\Ianrizky\Illuminate\Database\Model>
+     * @return \ArrayIterator<\Ianrizky\Illuminate\Database\Eloquent\Model>
      */
     public function getIterator(): ArrayIterator
     {
