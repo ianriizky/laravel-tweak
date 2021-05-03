@@ -47,9 +47,9 @@ namespace Ianrizky\Illuminate\Database\Eloquent\Docblock;
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder with(mixed $relations) Set the relationships that should be eager loaded.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder without(mixed $relations) Prevent the specified relations from being eager loaded.
  * @method static static newModelInstance(array $attributes = []) Create a new instance of the model being queried.
- * @method static \Illuminate\Database\Query\Builder getQuery() Get the underlying query builder instance.
+ * @method static \Ianrizky\Illuminate\Database\Query\Builder getQuery() Get the underlying query builder instance.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder setQuery(\Illuminate\Database\Query\Builder $query) Set the underlying query builder instance.
- * @method static \Illuminate\Database\Query\Builder toBase() Get a base query builder instance.
+ * @method static \Ianrizky\Illuminate\Database\Query\Builder toBase() Get a base query builder instance.
  * @method static array getEagerLoads() Get the relationships being eagerly loaded.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder setEagerLoads(array $eagerLoad) Set the relationships being eagerly loaded.
  * @method static static getModel() Get the model instance being queried.
