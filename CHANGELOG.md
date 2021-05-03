@@ -4,6 +4,11 @@ All notable changes to `laravel-tweak` will be documented in this file
 
 ## [Unreleased](https://github.com/ianriizky/laravel-tweak/compare/v6.0.4...feature/6.x)
 
+## [v6.0.5 (2021-05-03)](https://github.com/ianriizky/laravel-tweak/compare/v6.0.4...v6.0.5)
+
+### Fixed
+- Use custom eloquent and query builder as docblock definition
+
 ## [v6.0.4 (2021-05-03)](https://github.com/ianriizky/laravel-tweak/compare/v6.0.3...v6.0.4)
 
 ### Fixed
