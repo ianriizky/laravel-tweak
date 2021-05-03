@@ -30,7 +30,6 @@ namespace Ianrizky\Illuminate\Database\Eloquent\Docblock;
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Collection get(array|string $columns = ['*']) Execute the query as a "select" statement.
  * @method static static[] getModels(array|string $columns = ['*']) Get the hydrated models without eager loading.
  * @method static array eagerLoadRelations(array $models) Eager load the relationships for the models.
- * @method static \Illuminate\Database\Eloquent\Relations\Relation getRelation(string $name) Get the relation instance for the given relation name.
  * @method static \Illuminate\Support\LazyCollection cursor() Get a lazy collection for the given query.
  * @method static \Illuminate\Support\Collection pluck(string|\Illuminate\Database\Query\Expression $column, string|null $key = null) Get an array with the values of a given column.
  * @method static \Illuminate\Contracts\Pagination\LengthAwarePaginator paginate(int|null $perPage = null, array $columns = ['*'], string $pageName = 'page', int|null $page = null) Paginate the given query.
