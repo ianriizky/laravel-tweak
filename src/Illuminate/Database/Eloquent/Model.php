@@ -23,7 +23,6 @@ abstract class Model extends BaseModel
 {
     use Concerns\HandleModel,
         Concerns\HasAttributes,
-        Concerns\HasRelationships,
         Concerns\HasTimestamps,
         Concerns\Tappable,
         Docblock\EloquentBuilder;
