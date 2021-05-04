@@ -12,9 +12,9 @@ class HelpersTest extends TestCase
      *
      * @return void
      */
-    public function test_assert_tap_if()
+    public function testAssertTapIf()
     {
-        $condition = (bool) rand(0, 1);
+        $condition = rand(0, 1) === 1;
 
         $value = rand(0, 10);
         $exponential = rand(0, 10);
@@ -27,10 +27,10 @@ class HelpersTest extends TestCase
         $this->assertInstanceOf(DummyClass::class, $dummy);
 
         if ($condition) {
-            $this->assertEquals(pow($value, $exponential), $dummy->getValue());
-        } else {
-            $this->assertEquals($value, $dummy->getValue());
+            return $this->assertEquals(pow($value, $exponential), $dummy->getValue());
         }
+
+        $this->assertEquals($value, $dummy->getValue());
     }
 
     /**
@@ -38,9 +38,9 @@ class HelpersTest extends TestCase
      *
      * @return void
      */
-    public function test_assert_tap_unless()
+    public function testAssertTapUnless()
     {
-        $condition = (bool) rand(0, 1);
+        $condition = rand(0, 1) === 1;
 
         $value = rand(0, 10);
         $exponential = rand(0, 10);
@@ -53,9 +53,9 @@ class HelpersTest extends TestCase
         $this->assertInstanceOf(DummyClass::class, $dummy);
 
         if (!$condition) {
-            $this->assertEquals(pow($value, $exponential), $dummy->getValue());
-        } else {
-            $this->assertEquals($value, $dummy->getValue());
+            return $this->assertEquals(pow($value, $exponential), $dummy->getValue());
         }
+
+        $this->assertEquals($value, $dummy->getValue());
     }
 }
