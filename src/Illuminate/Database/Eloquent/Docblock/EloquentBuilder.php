@@ -39,8 +39,6 @@ namespace Ianrizky\Illuminate\Database\Eloquent\Docblock;
  * @method static int update(array $values) Update a record in the database.
  * @method static int increment(string|\Illuminate\Database\Query\Expression $column, float|int $amount = 1, array $extra = []) Increment a column's value by a given amount.
  * @method static int decrement(string|\Illuminate\Database\Query\Expression $column, float|int $amount = 1, array $extra = []) Decrement a column's value by a given amount.
- * @method static mixed delete() Delete a record from the database.
- * @method static mixed forceDelete() Run the default delete function on the builder. Since we do not apply scopes here, the row will actually be deleted.
  * @method static void onDelete(\Closure $callback) Register a replacement for the default delete function.
  * @method static static|mixed scopes(array|string $scopes) Call the given local model scopes.
  * @method static static applyScopes() Apply the scopes to the Eloquent builder instance and return it.

@@ -125,7 +125,6 @@ namespace Ianrizky\Illuminate\Database\Eloquent\Docblock;
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder updateOrInsert(array $attributes, array $values = []) Insert or update a record matching the attributes, and fill it with values.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder increment(string $column, float|int $amount = 1, array $extra = []) Increment a column's value by a given amount.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder decrement(string $column, float|int $amount = 1, array $extra = []) Decrement a column's value by a given amount.
- * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder delete(mixed $id = null) Delete a record from the database.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder truncate() Run a truncate statement on the table.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder newQuery() Get a new instance of the query builder.
  * @method static \Ianrizky\Illuminate\Database\Eloquent\Builder raw(mixed $value) Create a raw database expression.
