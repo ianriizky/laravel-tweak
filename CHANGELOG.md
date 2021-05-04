@@ -4,6 +4,11 @@ All notable changes to `laravel-tweak` will be documented in this file
 
 ## [Unreleased](https://github.com/ianriizky/laravel-tweak/compare/v6.0.4...feature/6.x)
 
+## [v6.0.6 (2021-05-04)](https://github.com/ianriizky/laravel-tweak/compare/v6.0.5...v6.0.6)
+
+### Fixed
+- Remove delete() and forceDelete method docblock definition on eloquent and query builder
+
 ## [v6.0.5 (2021-05-03)](https://github.com/ianriizky/laravel-tweak/compare/v6.0.4...v6.0.5)
 
 ### Fixed
