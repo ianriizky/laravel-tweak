@@ -2,7 +2,12 @@
 
 All notable changes to `laravel-tweak` will be documented in this file
 
-## [Unreleased](https://github.com/ianriizky/laravel-tweak/compare/v6.0.4...feature/6.x)
+## [Unreleased](https://github.com/ianriizky/laravel-tweak/compare/master...develop)
+
+## [v6.0.7 (2021-05-07)](https://github.com/ianriizky/laravel-tweak/compare/v6.0.6...v6.0.7)
+
+### Added
+- Add HasFactory trait class to handle factory support like laravel 8
 
 ## [v6.0.6 (2021-05-04)](https://github.com/ianriizky/laravel-tweak/compare/v6.0.5...v6.0.6)
 
