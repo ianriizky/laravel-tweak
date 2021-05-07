@@ -19,7 +19,7 @@ composer require ianriizky/laravel-tweak
 
 ## Testing
 ```bash
-phpunit
+./vendor/bin/phpunit
 ```
 
 ## Changelog
