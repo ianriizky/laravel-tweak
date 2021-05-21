@@ -4,6 +4,11 @@ All notable changes to `laravel-tweak` will be documented in this file
 
 ## [Unreleased](https://github.com/ianriizky/laravel-tweak/compare/master...develop)
 
+## [v6.0.8 (2021-05-21)](https://github.com/ianriizky/laravel-tweak/compare/v6.0.7...v6.0.8)
+
+### Fixed
+- Add optional parameter on HasFactory trait class
+
 ## [v6.0.7 (2021-05-07)](https://github.com/ianriizky/laravel-tweak/compare/v6.0.6...v6.0.7)
 
 ### Added
