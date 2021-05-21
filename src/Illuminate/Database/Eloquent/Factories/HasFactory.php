@@ -9,10 +9,13 @@ trait HasFactory
     /**
      * Get a new factory instance for the model.
      *
+     * @param  mixed  ...$paramaters
      * @return \Illuminate\Database\Eloquent\FactoryBuilder
      */
-    public static function factory(): FactoryBuilder
+    public static function factory(...$paramaters): FactoryBuilder
     {
-        return factory(static::class);
+        $paramaters = array_merge([static::class], $paramaters);
+
+        return factory(...$paramaters);
     }
 }
